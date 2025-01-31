@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Bean Scene</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="index.html" class="logo">Bean Scene</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="aboutus.html" class="active">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+      </nav>
+      <div class="auth-buttons">
+        <button class="sign-in">Sign In</button>
+        <button class="sign-up">Sign Up</button>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2 class="hero-subtitle">Our Story, Your Experience</h2>
+        <h1 class="hero-title">About Us</h1>
+        <p class="hero-text">
+          Welcome to Bean Scene, where every cup tells a story. Our passion for
+          coffee has brought together a community of enthusiasts who seek more
+          than just a drink — they seek inspiration, warmth, and connection.
+          Explore our journey, meet our experts, and dive into stories through
+          our exclusive blog.
+        </p>
+        <a href="#blog-section" class="order-now">Explore the Blog</a>
+      </div>
+    </section>
+    <!-- Blog -->
+    <section class="blog" id="blog-section">
+      <div class="blog-content">
+        <h2 class="blog-title">Our Blog</h2>
+        <p class="blog-text">
+          More than stories – we inspire, inform, and bring new ideas to life.
+        </p>
+        <div class="blog-slider-container">
+          <button class="blog-left-btn slider-btn">&#8592;</button>
+          <div class="blog-cards-wrapper">
+            <div class="blog-cards-container"></div>
+          </div>
+          <button class="blog-right-btn slider-btn">&#8594;</button>
+        </div>
+        <div id="blog-slider-dots" class="slider-dots"></div>
+      </div>
+    </section>
+    <!-- About us -->
+    <section class="about-us">
+      <div class="about-content">
+        <h2 class="about-title">About Us</h2>
+        <h3 class="about-subtitle">Our Story, Your Experience</h3>
+        <p class="about-text">
+          Welcome to our coffee shop! At Bean Scene, we believe that every cup
+          of coffee tells a story. From sourcing the finest beans to perfecting
+          the brewing process, our passion is to provide you with an
+          unforgettable experience. Whether you're here to catch up with
+          friends, work on your latest project, or simply enjoy a moment of
+          peace, we strive to make each visit special.
+        </p>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section brand">
+          <h2 class="brand-title">Bean Scene</h2>
+          <div class="social-icons">
+            <a href="#"
+              ><img src="images/icons/facebook.svg" alt="Facebook"
+            /></a>
+            <a href="#"><img src="images/icons/twitter.svg" alt="Twitter" /></a>
+            <a href="#"><img src="images/icons/inst.svg" alt="Instagram" /></a>
+            <a href="#"><img src="images/icons/youtube.svg" alt="YouTube" /></a>
+          </div>
+        </div>
+        <div class="footer-section about">
+          <h2 class="footer-title">About</h2>
+          <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">News & Blogs</a></li>
+            <li><a href="#">Help & Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-section company">
+          <h2 class="footer-title">Company</h2>
+          <ul>
+            <li><a href="#">How we work</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h2 class="footer-title">Contact Us</h2>
+          <p>
+            Akshya Nagar 1st Block 1st Cross, <br />
+            Ramamurthy Nagar, Bangalore-560016
+          </p>
+          <p>+1 202-918-2132</p>
+          <p><a href="mailto:beanscene@mail.com">beanscene@mail.com</a></p>
+          <p><a href="https://www.beanscene.com">www.beanscene.com</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- Overlay -->
+    <div class="overlay" id="blog-overlay">
+      <div class="overlay-content">
+        <button class="close-overlay-btn">&times;</button>
+        <h2 id="overlay-title"></h2>
+        <img id="overlay-image" src="" alt="" />
+        <p id="overlay-description"></p>
+      </div>
+    </div>
+  </body>
+  <script src="js/blog.js"></script>
+</html>

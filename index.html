@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bean Scene</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="index.html" class="logo">Bean Scene</a>
+      <button class="menu-button" id="menuButton">&#9776;</button>
+      <nav class="nav">
+        <a href="#" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+      </nav>
+      <div class="auth-buttons">
+        <button class="sign-in">Sign In</button>
+        <button class="sign-up">Sign Up</button>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2 class="hero-subtitle">We’ve got your morning covered with</h2>
+        <h1 class="hero-title">Coffee</h1>
+        <p class="hero-text">
+          It is best to start your day with a cup of coffee. Discover the best
+          flavours coffee you will ever have. We provide the best for our
+          customers.
+        </p>
+        <a href="menu.html" class="order-now">Order Now</a>
+      </div>
+    </section>
+    <!-- Discover -->
+    <section class="discover">
+      <div class="discover-content">
+        <h2 class="discover-title">Discover the best coffee</h2>
+        <p class="discover-text">
+          Bean Scene is a coffee shop that provides you with quality coffee that
+          helps boost your productivity and helps build your mood. Having a cup
+          of coffee is good, but having a cup of real coffee is greater. There
+          is no doubt that you will enjoy this coffee more than others you have
+          ever tasted.
+        </p>
+        <a class="order-now" href="aboutus.html">Learn More</a>
+      </div>
+      <div class="discover-image">
+        <img src="images/coffee_cup.png" alt="Coffee Cup" />
+      </div>
+    </section>
+    <!-- Enjoy -->
+    <section class="enjoy">
+      <div class="enjoy-content">
+        <h2 class="enjoy-title">Enjoy a new blend of coffee style</h2>
+        <p class="enjoy-text">
+          Explore all flavours of coffee with us. There is always a new cup
+          worth experiencing.
+        </p>
+      </div>
+      <div class="slider-container">
+        <button class="slider-btn left-btn">&#10094;</button>
+        <div class="drinks-slider">
+          <div class="drinks-container" id="drinks-container"></div>
+        </div>
+        <button class="slider-btn right-btn">&#10095;</button>
+      </div>
+      <div class="slider-dots" id="slider-dots"></div>
+    </section>
+    <!-- Shop -->
+    <section class="shop">
+      <h2 class="shop-title">Our Coffee Selection</h2>
+      <div class="shop-slider-container">
+        <button class="shop-slider-btn shop-left-btn" disabled>&#10094;</button>
+        <div class="coffee-packs-slider">
+          <div class="coffee-packs-container" id="coffee-packs-container"></div>
+        </div>
+        <button class="shop-slider-btn shop-right-btn">&#10095;</button>
+      </div>
+    </section>
+    <!-- Different -->
+    <section class="why-different">
+      <div class="why-different-content">
+        <h2 class="why-different-title">Why are we different?</h2>
+        <p class="why-different-text">
+          We don’t just make your coffee, we make your day!
+        </p>
+      </div>
+      <div class="features-container" id="features-container"></div>
+      <div class="why-different-extra">
+        <p class="why-different-text">
+          Great ideas start with great coffee. Let’s help you achieve that.
+        </p>
+        <h3 class="why-different-subtitle">Get started today</h3>
+        <a class="order-now" href="contactus.html">Join Us</a>
+      </div>
+    </section>
+    <!-- Amazing -->
+    <section class="amazing-morning">
+      <div class="amazing-overlay"></div>
+      <div class="amazing-content">
+        <h2 class="amazing-title">Get a chance to have an Amazing morning</h2>
+        <p class="amazing-text">
+          We are giving you a one-time opportunity to experience a better life
+          with coffee.
+        </p>
+        <a class="order-now" href="menu.html">Order Now</a>
+      </div>
+    </section>
+    <!-- Feedback -->
+    <section class="feedback">
+      <h2 class="feedback-title">Our coffee perfection feedback</h2>
+      <p class="feedback-text">
+        Our customers have amazing things to say about us
+      </p>
+      <div class="feedback-slider-container">
+        <button class="feedback-slider-btn feedback-left-btn">&#10094;</button>
+        <div class="feedback-slider">
+          <div
+            class="feedback-cards-container"
+            id="feedback-cards-container"
+          ></div>
+        </div>
+        <button class="feedback-slider-btn feedback-right-btn">&#10095;</button>
+      </div>
+    </section>
+    <!-- Subscribe -->
+    <section class="subscribe">
+      <div class="subscribe-content">
+        <h2 class="subscribe-title">Subscribe to get the Latest News</h2>
+        <p class="subscribe-text">
+          Don’t miss out on our latest news, updates, tips and special offers
+        </p>
+        <div class="subscribe-form">
+          <input
+            type="email"
+            class="subscribe-input"
+            placeholder="Enter your mail"
+          />
+          <button class="subscribe-button">Subscribe</button>
+        </div>
+      </div>
+    </section>
+    <!-- backToTop -->
+    <button id="backToTop" class="back-to-top">&#8679;</button>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section brand">
+          <h2 class="brand-title">Bean Scene</h2>
+          <div class="social-icons">
+            <a href="#"
+              ><img src="images/icons/facebook.svg" alt="Facebook"
+            /></a>
+            <a href="#"><img src="images/icons/twitter.svg" alt="Twitter" /></a>
+            <a href="#"><img src="images/icons/inst.svg" alt="Instagram" /></a>
+            <a href="#"><img src="images/icons/youtube.svg" alt="YouTube" /></a>
+          </div>
+        </div>
+        <div class="footer-section about">
+          <h2 class="footer-title">About</h2>
+          <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">News & Blogs</a></li>
+            <li><a href="#">Help & Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-section company">
+          <h2 class="footer-title">Company</h2>
+          <ul>
+            <li><a href="#">How we work</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h2 class="footer-title">Contact Us</h2>
+          <p>
+            Akshya Nagar 1st Block 1st Cross, <br />
+            Ramamurthy Nagar, Bangalore-560016
+          </p>
+          <p>+1 202-918-2132</p>
+          <p><a href="mailto:beanscene@mail.com">beanscene@mail.com</a></p>
+          <p><a href="https://www.beanscene.com">www.beanscene.com</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/index.js"></script>
+</html>

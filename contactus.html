@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Bean Scene</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="index.html" class="logo">Bean Scene</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html" class="active">Contact Us</a>
+      </nav>
+      <div class="auth-buttons">
+        <button class="sign-in">Sign In</button>
+        <button class="sign-up">Sign Up</button>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2 class="hero-subtitle">Stay Connected</h2>
+        <h1 class="hero-title">Contact Us</h1>
+        <p class="hero-text">
+          We're here for you! Whether you have questions, feedback, or just want
+          to say hello, our team is ready to connect. Reach out and let’s create
+          memorable moments together.
+        </p>
+        <a href="#reserve-section" class="order-now">Get in Touch</a>
+      </div>
+    </section>
+    <section class="reserve" id="reserve-section">
+      <h2 class="reserve-title">Reserve a Table</h2>
+      <div class="reserve-container">
+        <div class="reserve-image">
+          <img src="images/reserv.png" alt="Coffee Illustration" />
+        </div>
+        <div class="reserve-content">
+          <form class="reserve-form">
+            <input type="date" placeholder="Date" required />
+            <input type="time" placeholder="Time" required />
+            <select required>
+              <option value="" disabled selected>Guests</option>
+              <option value="1">1 Guest</option>
+              <option value="2">2 Guests</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+              <option value="5+">5+ Guests</option>
+            </select>
+            <input type="text" placeholder="Your Name" required />
+            <input type="tel" placeholder="Your Phone" required />
+            <input type="email" placeholder="Your Email" required />
+            <button type="submit" class="reserve-button">Reserve</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Us -->
+    <section class="contact-us">
+      <h2 class="contact-title">Contact Us</h2>
+      <div class="contact-info-container">
+        <div class="contact-info-item">
+          <i class="contact-icon fa-solid fa-phone"></i>
+          <div>
+            <h3>Phone</h3>
+            <p>+1 (555) 123-4567</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <i class="contact-icon fa-solid fa-envelope"></i>
+          <div>
+            <h3>Email</h3>
+            <p>info@beanscene.com</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <i class="contact-icon fa-solid fa-location-dot"></i>
+          <div>
+            <h3>Address</h3>
+            <p>123 Coffee Lane, Bean Town, Poland</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <i class="contact-icon fa-solid fa-map"></i>
+          <button class="map-button">View on Map</button>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section brand">
+          <h2 class="brand-title">Bean Scene</h2>
+          <div class="social-icons">
+            <a href="#"
+              ><img src="images/icons/facebook.svg" alt="Facebook"
+            /></a>
+            <a href="#"><img src="images/icons/twitter.svg" alt="Twitter" /></a>
+            <a href="#"><img src="images/icons/inst.svg" alt="Instagram" /></a>
+            <a href="#"><img src="images/icons/youtube.svg" alt="YouTube" /></a>
+          </div>
+        </div>
+        <div class="footer-section about">
+          <h2 class="footer-title">About</h2>
+          <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">News & Blogs</a></li>
+            <li><a href="#">Help & Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-section company">
+          <h2 class="footer-title">Company</h2>
+          <ul>
+            <li><a href="#">How we work</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h2 class="footer-title">Contact Us</h2>
+          <p>
+            Akshya Nagar 1st Block 1st Cross, <br />
+            Ramamurthy Nagar, Bangalore-560016
+          </p>
+          <p>+1 202-918-2132</p>
+          <p><a href="mailto:beanscene@mail.com">beanscene@mail.com</a></p>
+          <p><a href="https://www.beanscene.com">www.beanscene.com</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/contact.js"></script>
+</html>
